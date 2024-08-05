@@ -1,0 +1,277 @@
+head {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}	
+body {
+	background-color: #20211e;
+	color: #f7fcf2;
+	font-family: "Play";
+	font-size: 22px;
+	text-align: justify;
+	margin:0;
+	padding:0;
+}
+strong {
+	background-color: #8cfc03;
+	color: #282926;
+	padding: 1px 3px;
+
+}
+a {
+	margin:0;
+	padding:0;
+}
+header {
+	display: flex;
+    align-items: center;
+    justify-content: center;  
+margin: 2%;	
+}
+
+.navigation {
+
+}
+.logoclass {
+	 width: 90px;
+	position: relative;
+	/*margin: 0 90px;*/
+	padding-right: 14%;
+}
+.menu_block { 
+	list-style-type: none;	
+}
+.menu_block a {
+	padding: 0;
+	text-decoration: none;
+	
+}
+
+
+.menu_block li {
+	text-decoration: none;
+	display: inline;
+	width: 130%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 0 40px;
+	
+}
+
+.menu_block li a {
+	font-size: 25px;
+	font-weight: 20px;
+	background-image: linear-gradient(140deg, #c8fc04, #8cfc03);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 25px;
+	font-weight: 20px;
+	text-transform: uppercase;
+}
+
+.menu_block li a:hover {
+	cursor: pointer;
+	
+
+}
+.menu_block li a:visited {
+	text-decoration: none;
+}
+
+.container {
+	margin: 1% 20%;
+}
+.sectionblock{
+	padding: 10px 0;
+}
+h1{
+	background-image: linear-gradient(140deg, #c8fc04, #8cfc03);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3 {
+	background-image: linear-gradient(140deg, #c8fc04, #8cfc03);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+
+}
+#pictures {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	cursor: url(lanterncur.png), auto;
+	background-size: 100%;
+}
+
+#picturesnew {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	cursor: url(sun.png), auto;
+	background-size: 100%;
+}
+
+.disc {
+	list-style-type: none;
+	margin-left: -45px;
+}
+.disc li {
+	background-image: url(typodisc.png);
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.webster{
+	text-decoration: underline 1px;
+	color: #f9ffe6;
+}
+footer{
+	background-image: linear-gradient(140deg, #c8fc04, #8cfc03);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+	
+}
+.podval{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	
+}
+.lantern {
+	height:30px;
+	width:20px;
+	padding-right: 10px;
+}
+.mysite{
+	padding-left: 10px;
+}
+.gas0 {
+	background : url(gas0.jpg);
+	padding: 30%;
+}
+.gas0:hover {
+	background : url(gas0hover.jpg);
+	transition: all 0.5s ease;
+	padding: 30%;
+}
+.gas1{
+	background: url(gas1.jpg);
+	padding: 32%;
+	
+}
+.gas1:hover{
+	background: url(gas1hover.jpg);
+	transition: all 0.5s ease;
+	padding: 32%;
+}
+
+.couple {
+	background: url(couple.png);
+	padding: 32%;
+}
+.couple:hover {
+	background: url(couple1.png);
+	transition: all 0.5s ease;
+	padding: 32%;
+}
+
+.kid {
+	background: url(kid.jpg);
+	padding: 30%;
+}
+.kid:hover {
+	background: url(kidhover.jpg);
+	transition: all 0.5s ease;
+	padding: 30%;
+}
+
+.friends {
+	background: url(friends.jpg);
+	padding: 37%;
+}
+.friends:hover {
+	background: url(friendshover.jpg);
+	transition: all 0.5s ease;
+	padding: 37%;
+}
+
+.work {
+	background: url(work.jpg);
+	padding: 25%;
+
+}
+.work:hover {
+	background: url(workhover.jpg);
+	transition: all 0.5s ease;
+	padding: 25%;
+	
+}
+
+.denial {
+	background: url(denial.jpg);
+	padding: 35%;
+
+}
+.denial:hover {
+	background: url(denialhover.jpg);
+	transition: all 0.5s ease;
+	padding: 35%;
+}
+
+.zaschita {
+	background: url(zaschita.jpg);
+	padding: 30%;
+
+}
+.zaschita:hover {
+	background: url(zaschitahover.jpg);
+	transition: all 0.5s ease;
+	padding: 30%;
+}
+
+.depression {
+	background: url(depression.jpg);
+	padding: 25%;
+
+}
+.depression:hover {
+	background: url(depressionhover.jpg);
+	transition: all 0.5s ease;
+	padding: 25%;
+}
+
+.help {
+	background: url(help.jpg);
+	padding: 25%;
+}
+.support {
+	background: url(support.jpg);
+	padding: 30%;
+}
+
+.feelings {
+	background: url(feelings.jpg);
+padding: 33%;}
+
+.aggression {
+	background: url(aggression.jpg);
+	padding: 30%
+}
+
+.emotions {
+	background: url(emotions.jpg);
+	padding: 35%
+}
+.nohear {
+	background: url(nohear.jpg);
+	padding: 30%
+}
